@@ -1,0 +1,68 @@
+/*
+
+- Font sizes (px)
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+// SASS VARIABLES
+// PRIMARY COLORS
+$primary-red: #ea5353;
+$primary-cyan: #45d3d3;
+$primary-orange: #fcaf4a;
+$primary-blue: #549ef2;
+
+// NEUTRAL COLORS
+$neutral-grey-500: #4c4e61;
+$neutral-grey-400: #697077;
+$neutral-white: #ffffff;
+
+// FONT FAMILY
+$font-family: "Poppins", sans-serif;
+
+// DEFAULT FONT SIZE
+$font-size: 0.9375rem; // 1rem == 15px / 16px == 0.9375 * 16 == 15px
+
+// FONT WEIGHT
+$font-weight-200: 200;
+$font-weight-400: 400;
+$font-weight-500: 500;
+
+// RESPONSIVE BREAKPOINTS
+// UNIVERSAL STYLES
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $font-size;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $font-weight-400;
+  color: $neutral-grey-400;
+}
+
+.container {
+  background-color: $neutral-white;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+svg {
+  align-self: flex-end;
+}
