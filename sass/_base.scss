@@ -32,6 +32,9 @@ $font-weight-400: 400;
 $font-weight-500: 500;
 
 // RESPONSIVE BREAKPOINTS
+$bp-medium: 63em; // 945 / 15 == 63 * 15 == 945
+$bp-smaller: 50.46666667em; // 757 / 15 == 50.46666667 * 15 == 757
+
 // UNIVERSAL STYLES
 *,
 *::before,
@@ -44,6 +47,13 @@ $font-weight-500: 500;
 html {
   box-sizing: border-box;
   font-size: $font-size;
+
+  // MEDIA QUERY
+  @media only screen and (max-width: $bp-medium) {
+    & {
+      font-size: 0.75rem;
+    }
+  }
 }
 
 body {
