@@ -17,6 +17,13 @@
     font-weight: 400;
     font-size: 0.9333333rem;
     color: $neutral-grey-400;
+
+    // MEDIA QUERY
+    @media only screen and (max-width: $bp-smallest) {
+      & {
+        width: 54%;
+      }
+    }
   }
 }
 
