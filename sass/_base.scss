@@ -24,7 +24,7 @@ $neutral-white: #ffffff;
 $font-family: "Poppins", sans-serif;
 
 // DEFAULT FONT SIZE
-$font-size: 0.9375rem; // 1rem == 15px / 16px == 0.9375 * 16 == 15px
+$font-size: 0.9375rem;
 
 // FONT WEIGHT
 $font-weight-200: 200;
@@ -32,9 +32,9 @@ $font-weight-400: 400;
 $font-weight-500: 500;
 
 // RESPONSIVE BREAKPOINTS
-$bp-medium: 63em; // 945px / 15px == 63 * 15 == 945
-$bp-smaller: 50.46666667em; // 757px / 15px == 50.46666667 * 15 == 757
-$bp-smallest: 27em; // 405px / 15px == 27em * 15 == 405
+$bp-medium: 63em;
+$bp-smaller: 50.46666667em;
+$bp-smallest: 27em;
 
 // UNIVERSAL STYLES
 *,
